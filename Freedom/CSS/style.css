@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../images/Forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 900px;
+    margin: 10px auto;
+    background-color: white;
+    height: 820px;
+}
+
+.container header {
+    text-align: center;
+    padding-top: 30px;
+}
+
+header h1{
+    margin-bottom:5px;
+}
+
+h1,
+h2 {
+    font-family: sans-serif;
+}
+
+.navigation {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navigation ul {
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    padding: 10px 5px;
+}
+
+.navigation li {
+    cursor: pointer;
+}
+
+.navigation li a:hover {
+    color: #42CBC2;
+}
+
+.navigation li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.content {
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.sides {
+    width: 880px;
+    margin: auto;
+    position: relative;
+}
+
+#sec1 .content .first_left {
+    width: 595px;
+}
+
+#sec1 .content .first_right {
+    width: 300px;
+    padding: 5px 20px 9px 25px;
+    box-sizing: border-box;
+}
+
+.first_right p {
+    padding: 15px 0px 15px 0px;
+}
+
+.first_right button {
+    background-color: #42CBC2;
+    color: white;
+    padding: 8px 10px;
+    border-style: none;
+    font-size: 16px;
+    border-radius: 2px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    transition: all 1s cubic-bezier(0.55, 0.15, 0, 1.66);
+}
+
+.first_right button:hover {
+     box-shadow: 0px 15px 25px #555;
+    transition: all 1s cubic-bezier(0.55, 0.15, 0, 1.66);
+}
+
+#sec2 .content {
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#sec2 .content .picture1 {
+    width: 380px;
+    height: 350px;
+    background-image: url(../images/the-sun.jpg);
+    background-repeat: no-repeat;
+    background-size: 380px 310px;
+}
+
+#sec2 .content .picture2 {
+    width: 380px;
+    height: 310px;
+    background-image: url(../images/Laura-Zalenga.jpg);
+    background-repeat: no-repeat;
+    background-size: 380px;
+}
+
+.leftRow {
+    bottom: 168px;
+    float: left;
+    position: inherit;
+    left: 10px;
+    font-size: 25px;
+}
+
+.leftRow i {
+    color: lightgray;
+}
+
+.rightRow {
+    float: right;
+    bottom: 168px;
+    position: inherit;
+    right: 10px;
+    font-size: 25px;
+    color: lightgray;
+}
+
+.rightRow i {
+    color: lightgray;
+}
+
+.date_content {
+    padding: 120px 30px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.date_content2 {
+    padding: 120px 30px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.date {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 15px;
+    font-size: 12px;
+    justify-content: space-between;
+    width: 230px;
+}
+
+.botomBord {
+    padding-top: 15px;
+    width: 88px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+
+.date span {
+    padding-left: 10px;
+}
+
+.date .fa-calendar {
+    padding-right: 5px;
+}
+
+.date .fa-folder-open {
+    padding-right: 5px;
+}
